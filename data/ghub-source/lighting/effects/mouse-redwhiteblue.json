@@ -1,0 +1,305 @@
+{
+  "keyframeInfo": {
+    "direction": "RANDOM",
+    "keyframeMap": {
+      "0": {
+        "length": 15,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "hex": "#ff0000"
+                  },
+                  "2": {
+                    "hex": "#ff0000"
+                  },
+                  "3": {
+                    "hex": "#ff0000"
+                  },
+                  "4": {
+                    "hex": "#ff0000"
+                  },
+                  "5": {
+                    "hex": "#ff0000"
+                  },
+                  "6": {
+                    "hex": "#ff0000"
+                  },
+                  "7": {
+                    "hex": "#ff0000"
+                  },
+                  "8": {
+                    "hex": "#ff0000"
+                  }
+                }
+              }
+            },
+            "PERKEY_COSMETIC_5": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "tag": "",
+                    "hex": "#ff0000"
+                  },
+                  "2": {
+                    "tag": "",
+                    "hex": "#ff0000"
+                  },
+                  "3": {
+                    "tag": "",
+                    "hex": "#ff0000"
+                  },
+                  "4": {
+                    "tag": "",
+                    "hex": "#ff0000"
+                  },
+                  "5": {
+                    "tag": "",
+                    "hex": "#ff0000"
+                  },
+                  "6": {
+                    "tag": "",
+                    "hex": "#ff0000"
+                  },
+                  "7": {
+                    "tag": "",
+                    "hex": "#ff0000"
+                  },
+                  "8": {
+                    "tag": "",
+                    "hex": "#ff0000"
+                  },
+                  "9": {
+                    "tag": "",
+                    "hex": "#ff0000"
+                  },
+                  "10": {
+                    "tag": "",
+                    "hex": "#ff0000"
+                  },
+                  "11": {
+                    "tag": "",
+                    "hex": "#ff0000"
+                  },
+                  "12": {
+                    "tag": "",
+                    "hex": "#ff0000"
+                  },
+                  "13": {
+                    "tag": "",
+                    "hex": "#ff0000"
+                  },
+                  "14": {
+                    "tag": "",
+                    "hex": "#ff0000"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "1": {
+        "length": 14,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "hex": "#ffffff"
+                  },
+                  "2": {
+                    "hex": "#ffffff"
+                  },
+                  "3": {
+                    "hex": "#ffffff"
+                  },
+                  "4": {
+                    "hex": "#ffffff"
+                  },
+                  "5": {
+                    "hex": "#ffffff"
+                  },
+                  "6": {
+                    "hex": "#ffffff"
+                  },
+                  "7": {
+                    "hex": "#ffffff"
+                  },
+                  "8": {
+                    "hex": "#ffffff"
+                  }
+                }
+              }
+            },
+            "PERKEY_COSMETIC_5": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "tag": "",
+                    "hex": "#ffffff"
+                  },
+                  "2": {
+                    "tag": "",
+                    "hex": "#ffffff"
+                  },
+                  "3": {
+                    "tag": "",
+                    "hex": "#ffffff"
+                  },
+                  "4": {
+                    "tag": "",
+                    "hex": "#ffffff"
+                  },
+                  "5": {
+                    "tag": "",
+                    "hex": "#ffffff"
+                  },
+                  "6": {
+                    "tag": "",
+                    "hex": "#ffffff"
+                  },
+                  "7": {
+                    "tag": "",
+                    "hex": "#ffffff"
+                  },
+                  "8": {
+                    "tag": "",
+                    "hex": "#ffffff"
+                  },
+                  "9": {
+                    "tag": "",
+                    "hex": "#ffffff"
+                  },
+                  "10": {
+                    "tag": "",
+                    "hex": "#ffffff"
+                  },
+                  "11": {
+                    "tag": "",
+                    "hex": "#ffffff"
+                  },
+                  "12": {
+                    "tag": "",
+                    "hex": "#ffffff"
+                  },
+                  "13": {
+                    "tag": "",
+                    "hex": "#ffffff"
+                  },
+                  "14": {
+                    "tag": "",
+                    "hex": "#ffffff"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "2": {
+        "length": 14,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "hex": "#0000ff"
+                  },
+                  "2": {
+                    "hex": "#0000ff"
+                  },
+                  "3": {
+                    "hex": "#0000ff"
+                  },
+                  "4": {
+                    "hex": "#0000ff"
+                  },
+                  "5": {
+                    "hex": "#0000ff"
+                  },
+                  "6": {
+                    "hex": "#0000ff"
+                  },
+                  "7": {
+                    "hex": "#0000ff"
+                  },
+                  "8": {
+                    "hex": "#0000ff"
+                  }
+                }
+              }
+            },
+            "PERKEY_COSMETIC_5": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "tag": "",
+                    "hex": "#0000ff"
+                  },
+                  "2": {
+                    "tag": "",
+                    "hex": "#0000ff"
+                  },
+                  "3": {
+                    "tag": "",
+                    "hex": "#0000ff"
+                  },
+                  "4": {
+                    "tag": "",
+                    "hex": "#0000ff"
+                  },
+                  "5": {
+                    "tag": "",
+                    "hex": "#0000ff"
+                  },
+                  "6": {
+                    "tag": "",
+                    "hex": "#0000ff"
+                  },
+                  "7": {
+                    "tag": "",
+                    "hex": "#0000ff"
+                  },
+                  "8": {
+                    "tag": "",
+                    "hex": "#0000ff"
+                  },
+                  "9": {
+                    "tag": "",
+                    "hex": "#0000ff"
+                  },
+                  "10": {
+                    "tag": "",
+                    "hex": "#0000ff"
+                  },
+                  "11": {
+                    "tag": "",
+                    "hex": "#0000ff"
+                  },
+                  "12": {
+                    "tag": "",
+                    "hex": "#0000ff"
+                  },
+                  "13": {
+                    "tag": "",
+                    "hex": "#0000ff"
+                  },
+                  "14": {
+                    "tag": "",
+                    "hex": "#0000ff"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "speed": 100
+  }
+}

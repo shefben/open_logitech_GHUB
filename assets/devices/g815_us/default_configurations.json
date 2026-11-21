@@ -1,0 +1,567 @@
+{
+  "defaultConfigurations": [
+    {
+      "header": {
+        "address": "",
+        "type": "InputConfiguration",
+        "version": "1.0.0"
+      },
+      "settings": {
+        "layerMap": {
+          "LAYER_MODE1": {
+            "localSettings": {
+              "assignments": {
+                "1": {
+                  "category": "G_KEY",
+                  "inputAssignments": {
+                    "1": {
+                      "inputId": 1,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013a00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "2": {
+                      "inputId": 2,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013b00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "3": {
+                      "inputId": 3,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013c00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "4": {
+                      "inputId": 4,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013d00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "5": {
+                      "inputId": 5,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013e00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "type": "BUTTON"
+                }
+              }
+            }
+          },
+          "LAYER_MODE1_G": {
+            "localSettings": {
+              "assignments": {
+                "1": {
+                  "category": "G_KEY",
+                  "inputAssignments": {
+                    "1": {
+                      "inputId": 1,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013a00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "2": {
+                      "inputId": 2,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013b00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "3": {
+                      "inputId": 3,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013c00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "4": {
+                      "inputId": 4,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013d00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "5": {
+                      "inputId": 5,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013e00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "type": "BUTTON"
+                }
+              }
+            }
+          },
+          "LAYER_MODE2": {
+            "localSettings": {
+              "assignments": {
+                "1": {
+                  "category": "G_KEY",
+                  "inputAssignments": {
+                    "1": {
+                      "inputId": 1,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013a00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "2": {
+                      "inputId": 2,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013b00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "3": {
+                      "inputId": 3,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013c00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "4": {
+                      "inputId": 4,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013d00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "5": {
+                      "inputId": 5,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013e00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "type": "BUTTON"
+                }
+              }
+            }
+          },
+          "LAYER_MODE2_G": {
+            "localSettings": {
+              "assignments": {
+                "1": {
+                  "category": "G_KEY",
+                  "inputAssignments": {
+                    "1": {
+                      "inputId": 1,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013a00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "2": {
+                      "inputId": 2,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013b00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "3": {
+                      "inputId": 3,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013c00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "4": {
+                      "inputId": 4,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013d00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "5": {
+                      "inputId": 5,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013e00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "type": "BUTTON"
+                }
+              }
+            }
+          },
+          "LAYER_MODE3": {
+            "localSettings": {
+              "assignments": {
+                "1": {
+                  "category": "G_KEY",
+                  "inputAssignments": {
+                    "1": {
+                      "inputId": 1,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013a00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "2": {
+                      "inputId": 2,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013b00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "3": {
+                      "inputId": 3,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013c00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "4": {
+                      "inputId": 4,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013d00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "5": {
+                      "inputId": 5,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013e00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "type": "BUTTON"
+                }
+              }
+            }
+          },
+          "LAYER_MODE3_G": {
+            "localSettings": {
+              "assignments": {
+                "1": {
+                  "category": "G_KEY",
+                  "inputAssignments": {
+                    "1": {
+                      "inputId": 1,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013a00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "2": {
+                      "inputId": 2,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013b00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "3": {
+                      "inputId": 3,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013c00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "4": {
+                      "inputId": 4,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013d00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    },
+                    "5": {
+                      "inputId": 5,
+                      "modifierAssignments": {
+                        "0": {
+                          "eventAssignments": {
+                            "1": {
+                              "buttonEvent": "BUTTON_STANDARD",
+                              "macroId": "0f82f693-5b78-4cf5-867e-013e00000000"
+                            }
+                          },
+                          "modifiers": [
+                            "NO_MODIFIER"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "type": "BUTTON"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

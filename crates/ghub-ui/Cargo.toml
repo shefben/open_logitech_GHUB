@@ -1,0 +1,23 @@
+[package]
+name = "ghub-ui"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "ghub"
+path = "src/main.rs"
+
+[dependencies]
+# The window is the half that has the G HUB import page, so it is the half that pays for SQLite.
+ghub-core = { workspace = true, features = ["import"] }
+ghub-hidpp.workspace = true
+ghub-platform.workspace = true
+ghub-host.workspace = true
+egui.workspace = true
+eframe.workspace = true
+image.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+log.workspace = true
+env_logger.workspace = true

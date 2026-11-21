@@ -1,0 +1,19 @@
+[package]
+name = "ghub-agent"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "ghub-agent"
+path = "src/main.rs"
+
+[dependencies]
+# No egui, no eframe, no image, no SQLite. That is the whole point of this binary: it is what sits
+# resident, and every one of those four would be paid for all day to be used for a few minutes.
+ghub-core.workspace = true
+ghub-hidpp.workspace = true
+ghub-platform.workspace = true
+ghub-host.workspace = true
+log.workspace = true
+env_logger.workspace = true

@@ -1,0 +1,856 @@
+{
+  "keyframeInfo": {
+    "direction": "CYCLE",
+    "keyframeMap": {
+      "0": {
+        "curveType": "NONE",
+        "length": 25,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#00127c"
+                  },
+                  "1": {
+                    "hex": "#00127c"
+                  },
+                  "2": {
+                    "hex": "#00127c"
+                  },
+                  "3": {
+                    "hex": "#00127c"
+                  },
+                  "4": {
+                    "hex": "#00127c"
+                  },
+                  "5": {
+                    "hex": "#00127c"
+                  },
+                  "6": {
+                    "hex": "#00127c"
+                  },
+                  "7": {
+                    "hex": "#00127c"
+                  },
+                  "8": {
+                    "hex": "#00127c"
+                  },
+                  "9": {
+                    "hex": "#00127c"
+                  },
+                  "10": {
+                    "hex": "#00127c"
+                  },
+                  "11": {
+                    "hex": "#00127c"
+                  },
+                  "12": {
+                    "hex": "#00127c"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "1": {
+        "curveType": "OUTINBACK",
+        "length": 4,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#2f3c81"
+                  },
+                  "1": {
+                    "hex": "#ffffff"
+                  },
+                  "2": {
+                    "hex": "#2f3c81"
+                  },
+                  "3": {
+                    "hex": "#2f3c81"
+                  },
+                  "4": {
+                    "hex": "#2f3c81"
+                  },
+                  "5": {
+                    "hex": "#2f3c81"
+                  },
+                  "6": {
+                    "hex": "#2f3c81"
+                  },
+                  "7": {
+                    "hex": "#94a2ff"
+                  },
+                  "8": {
+                    "hex": "#2f3c81"
+                  },
+                  "9": {
+                    "hex": "#2f3c81"
+                  },
+                  "10": {
+                    "hex": "#2f3c81"
+                  },
+                  "11": {
+                    "hex": "#94a2ff"
+                  },
+                  "12": {
+                    "hex": "#94a2ff"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "10": {
+        "curveType": "NONE",
+        "length": 3,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#00127c"
+                  },
+                  "1": {
+                    "hex": "#00127c"
+                  },
+                  "2": {
+                    "hex": "#00127c"
+                  },
+                  "3": {
+                    "hex": "#00127c"
+                  },
+                  "4": {
+                    "hex": "#00127c"
+                  },
+                  "5": {
+                    "hex": "#00127c"
+                  },
+                  "6": {
+                    "hex": "#00127c"
+                  },
+                  "7": {
+                    "hex": "#00127c"
+                  },
+                  "8": {
+                    "hex": "#00127c"
+                  },
+                  "9": {
+                    "hex": "#00127c"
+                  },
+                  "10": {
+                    "hex": "#00127c"
+                  },
+                  "11": {
+                    "hex": "#00127c"
+                  },
+                  "12": {
+                    "hex": "#00127c"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "11": {
+        "curveType": "INCIRC",
+        "length": 3,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#ffffff"
+                  },
+                  "1": {
+                    "hex": "#2f3c81"
+                  },
+                  "2": {
+                    "hex": "#2f3c81"
+                  },
+                  "3": {
+                    "hex": "#2f3c81"
+                  },
+                  "4": {
+                    "hex": "#ffffff"
+                  },
+                  "5": {
+                    "hex": "#2f3c81"
+                  },
+                  "6": {
+                    "hex": "#ffffff"
+                  },
+                  "7": {
+                    "hex": "#2f3c81"
+                  },
+                  "8": {
+                    "hex": "#2f3c81"
+                  },
+                  "9": {
+                    "hex": "#2f3c81"
+                  },
+                  "10": {
+                    "hex": "#2f3c81"
+                  },
+                  "11": {
+                    "hex": "#2f3c81"
+                  },
+                  "12": {
+                    "hex": "#2f3c81"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "12": {
+        "curveType": "NONE",
+        "length": 45,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#00127c"
+                  },
+                  "1": {
+                    "hex": "#00127c"
+                  },
+                  "2": {
+                    "hex": "#00127c"
+                  },
+                  "3": {
+                    "hex": "#00127c"
+                  },
+                  "4": {
+                    "hex": "#00127c"
+                  },
+                  "5": {
+                    "hex": "#00127c"
+                  },
+                  "6": {
+                    "hex": "#00127c"
+                  },
+                  "7": {
+                    "hex": "#00127c"
+                  },
+                  "8": {
+                    "hex": "#00127c"
+                  },
+                  "9": {
+                    "hex": "#00127c"
+                  },
+                  "10": {
+                    "hex": "#00127c"
+                  },
+                  "11": {
+                    "hex": "#00127c"
+                  },
+                  "12": {
+                    "hex": "#00127c"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "13": {
+        "curveType": "INCIRC",
+        "length": 3,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#ffffff"
+                  },
+                  "1": {
+                    "hex": "#2f3c81"
+                  },
+                  "2": {
+                    "hex": "#2f3c81"
+                  },
+                  "3": {
+                    "hex": "#2f3c81"
+                  },
+                  "4": {
+                    "hex": "#2f3c81"
+                  },
+                  "5": {
+                    "hex": "#2f3c81"
+                  },
+                  "6": {
+                    "hex": "#ffffff"
+                  },
+                  "7": {
+                    "hex": "#2f3c81"
+                  },
+                  "8": {
+                    "hex": "#2f3c81"
+                  },
+                  "9": {
+                    "hex": "#2f3c81"
+                  },
+                  "10": {
+                    "hex": "#2f3c81"
+                  },
+                  "11": {
+                    "hex": "#2f3c81"
+                  },
+                  "12": {
+                    "hex": "#2f3c81"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "14": {
+        "curveType": "NONE",
+        "length": 3,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#00127c"
+                  },
+                  "1": {
+                    "hex": "#00127c"
+                  },
+                  "2": {
+                    "hex": "#00127c"
+                  },
+                  "3": {
+                    "hex": "#00127c"
+                  },
+                  "4": {
+                    "hex": "#00127c"
+                  },
+                  "5": {
+                    "hex": "#00127c"
+                  },
+                  "6": {
+                    "hex": "#00127c"
+                  },
+                  "7": {
+                    "hex": "#00127c"
+                  },
+                  "8": {
+                    "hex": "#00127c"
+                  },
+                  "9": {
+                    "hex": "#00127c"
+                  },
+                  "10": {
+                    "hex": "#00127c"
+                  },
+                  "11": {
+                    "hex": "#00127c"
+                  },
+                  "12": {
+                    "hex": "#00127c"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "15": {
+        "curveType": "OUTINBACK",
+        "length": 3,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#ffffff"
+                  },
+                  "1": {
+                    "hex": "#94a2ff"
+                  },
+                  "2": {
+                    "hex": "#2f3c81"
+                  },
+                  "3": {
+                    "hex": "#2f3c81"
+                  },
+                  "4": {
+                    "hex": "#2f3c81"
+                  },
+                  "5": {
+                    "hex": "#2f3c81"
+                  },
+                  "6": {
+                    "hex": "#ffffff"
+                  },
+                  "7": {
+                    "hex": "#2f3c81"
+                  },
+                  "8": {
+                    "hex": "#2f3c81"
+                  },
+                  "9": {
+                    "hex": "#2f3c81"
+                  },
+                  "10": {
+                    "hex": "#2f3c81"
+                  },
+                  "11": {
+                    "hex": "#2f3c81"
+                  },
+                  "12": {
+                    "hex": "#2f3c81"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "2": {
+        "curveType": "NONE",
+        "length": 3,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#00127c"
+                  },
+                  "1": {
+                    "hex": "#00127c"
+                  },
+                  "2": {
+                    "hex": "#00127c"
+                  },
+                  "3": {
+                    "hex": "#00127c"
+                  },
+                  "4": {
+                    "hex": "#00127c"
+                  },
+                  "5": {
+                    "hex": "#00127c"
+                  },
+                  "6": {
+                    "hex": "#00127c"
+                  },
+                  "7": {
+                    "hex": "#00127c"
+                  },
+                  "8": {
+                    "hex": "#00127c"
+                  },
+                  "9": {
+                    "hex": "#00127c"
+                  },
+                  "10": {
+                    "hex": "#00127c"
+                  },
+                  "11": {
+                    "hex": "#00127c"
+                  },
+                  "12": {
+                    "hex": "#00127c"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "3": {
+        "curveType": "INCIRC",
+        "length": 3,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#2f3c81"
+                  },
+                  "1": {
+                    "hex": "#ffffff"
+                  },
+                  "2": {
+                    "hex": "#2f3c81"
+                  },
+                  "3": {
+                    "hex": "#2f3c81"
+                  },
+                  "4": {
+                    "hex": "#2f3c81"
+                  },
+                  "5": {
+                    "hex": "#2f3c81"
+                  },
+                  "6": {
+                    "hex": "#2f3c81"
+                  },
+                  "7": {
+                    "hex": "#2f3c81"
+                  },
+                  "8": {
+                    "hex": "#2f3c81"
+                  },
+                  "9": {
+                    "hex": "#2f3c81"
+                  },
+                  "10": {
+                    "hex": "#2f3c81"
+                  },
+                  "11": {
+                    "hex": "#2f3c81"
+                  },
+                  "12": {
+                    "hex": "#2f3c81"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "4": {
+        "curveType": "NONE",
+        "length": 35,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#00127c"
+                  },
+                  "1": {
+                    "hex": "#00127c"
+                  },
+                  "2": {
+                    "hex": "#00127c"
+                  },
+                  "3": {
+                    "hex": "#00127c"
+                  },
+                  "4": {
+                    "hex": "#00127c"
+                  },
+                  "5": {
+                    "hex": "#00127c"
+                  },
+                  "6": {
+                    "hex": "#00127c"
+                  },
+                  "7": {
+                    "hex": "#00127c"
+                  },
+                  "8": {
+                    "hex": "#00127c"
+                  },
+                  "9": {
+                    "hex": "#00127c"
+                  },
+                  "10": {
+                    "hex": "#00127c"
+                  },
+                  "11": {
+                    "hex": "#00127c"
+                  },
+                  "12": {
+                    "hex": "#00127c"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "5": {
+        "curveType": "OUTINBACK",
+        "length": 3,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#94a2ff"
+                  },
+                  "1": {
+                    "hex": "#94a2ff"
+                  },
+                  "2": {
+                    "hex": "#94a2ff"
+                  },
+                  "3": {
+                    "hex": "#94a2ff"
+                  },
+                  "4": {
+                    "hex": "#94a2ff"
+                  },
+                  "5": {
+                    "hex": "#94a2ff"
+                  },
+                  "6": {
+                    "hex": "#94a2ff"
+                  },
+                  "7": {
+                    "hex": "#94a2ff"
+                  },
+                  "8": {
+                    "hex": "#94a2ff"
+                  },
+                  "9": {
+                    "hex": "#94a2ff"
+                  },
+                  "10": {
+                    "hex": "#94a2ff"
+                  },
+                  "11": {
+                    "hex": "#94a2ff"
+                  },
+                  "12": {
+                    "hex": "#94a2ff"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "6": {
+        "curveType": "NONE",
+        "length": 3,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#00127c"
+                  },
+                  "1": {
+                    "hex": "#00127c"
+                  },
+                  "2": {
+                    "hex": "#00127c"
+                  },
+                  "3": {
+                    "hex": "#00127c"
+                  },
+                  "4": {
+                    "hex": "#00127c"
+                  },
+                  "5": {
+                    "hex": "#00127c"
+                  },
+                  "6": {
+                    "hex": "#00127c"
+                  },
+                  "7": {
+                    "hex": "#00127c"
+                  },
+                  "8": {
+                    "hex": "#00127c"
+                  },
+                  "9": {
+                    "hex": "#00127c"
+                  },
+                  "10": {
+                    "hex": "#00127c"
+                  },
+                  "11": {
+                    "hex": "#00127c"
+                  },
+                  "12": {
+                    "hex": "#00127c"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "7": {
+        "curveType": "INCIRC",
+        "length": 10,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#94a2ff"
+                  },
+                  "1": {
+                    "hex": "#94a2ff"
+                  },
+                  "2": {
+                    "hex": "#94a2ff"
+                  },
+                  "3": {
+                    "hex": "#94a2ff"
+                  },
+                  "4": {
+                    "hex": "#94a2ff"
+                  },
+                  "5": {
+                    "hex": "#94a2ff"
+                  },
+                  "6": {
+                    "hex": "#94a2ff"
+                  },
+                  "7": {
+                    "hex": "#94a2ff"
+                  },
+                  "8": {
+                    "hex": "#94a2ff"
+                  },
+                  "9": {
+                    "hex": "#94a2ff"
+                  },
+                  "10": {
+                    "hex": "#94a2ff"
+                  },
+                  "11": {
+                    "hex": "#94a2ff"
+                  },
+                  "12": {
+                    "hex": "#94a2ff"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "8": {
+        "curveType": "NONE",
+        "length": 70,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#00127c"
+                  },
+                  "1": {
+                    "hex": "#00127c"
+                  },
+                  "2": {
+                    "hex": "#00127c"
+                  },
+                  "3": {
+                    "hex": "#00127c"
+                  },
+                  "4": {
+                    "hex": "#00127c"
+                  },
+                  "5": {
+                    "hex": "#00127c"
+                  },
+                  "6": {
+                    "hex": "#00127c"
+                  },
+                  "7": {
+                    "hex": "#00127c"
+                  },
+                  "8": {
+                    "hex": "#00127c"
+                  },
+                  "9": {
+                    "hex": "#00127c"
+                  },
+                  "10": {
+                    "hex": "#00127c"
+                  },
+                  "11": {
+                    "hex": "#00127c"
+                  },
+                  "12": {
+                    "hex": "#00127c"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "9": {
+        "curveType": "OUTINBACK",
+        "length": 3,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "210": {
+                    "hex": "#ffffff"
+                  },
+                  "1": {
+                    "hex": "#2f3c81"
+                  },
+                  "2": {
+                    "hex": "#94a2ff"
+                  },
+                  "3": {
+                    "hex": "#2f3c81"
+                  },
+                  "4": {
+                    "hex": "#ffffff"
+                  },
+                  "5": {
+                    "hex": "#94a2ff"
+                  },
+                  "6": {
+                    "hex": "#ffffff"
+                  },
+                  "7": {
+                    "hex": "#2f3c81"
+                  },
+                  "8": {
+                    "hex": "#2f3c81"
+                  },
+                  "9": {
+                    "hex": "#2f3c81"
+                  },
+                  "10": {
+                    "hex": "#2f3c81"
+                  },
+                  "11": {
+                    "hex": "#2f3c81"
+                  },
+                  "12": {
+                    "hex": "#2f3c81"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "speed": 100
+  }
+}

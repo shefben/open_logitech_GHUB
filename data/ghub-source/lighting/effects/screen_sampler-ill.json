@@ -1,0 +1,107 @@
+{
+  "screen_sampler_info": {
+    "region_map": {
+      "cdac2749-6273-4e67-87f8-971539dd3b5b": {
+        "id": "cdac2749-6273-4e67-87f8-971539dd3b5b",
+        "top": 0.5,
+        "left": 0,
+        "right": 0.85,
+        "bottom": 0.2,
+        "color_function": "AVERAGE_COLOR",
+        "name": "LEFTMOST",
+        "order": "1"
+      },
+      "275a2c1a-acB5-499c-a8b2-b3fef93f17c6": {
+        "id": "275a2c1a-acB5-499c-a8b2-b3fef93f17c6",
+        "top": 0.5,
+        "left": 0.14,
+        "right": 0.71,
+        "bottom": 0.2,
+        "color_function": "AVERAGE_COLOR",
+        "name": "LEFT",
+        "order": "2"
+      },
+      "8bf1debb-e803-40f8-b431-1e21b721ae0e": {
+        "id": "8bf1debb-e803-40f8-b431-1e21b721ae0e",
+        "top": 0.5,
+        "left": 0.28,
+        "right": 0.57,
+        "bottom": 0.2,
+        "color_function": "AVERAGE_COLOR",
+        "name": "MID-LEFT",
+        "order": "3"
+      },
+      "0f706636-f983-4f6a-8a3d-db3e13111089": {
+        "id": "0f706636-f983-4f6a-8a3d-db3e13111089",
+        "top": 0.5,
+        "left": 0.43,
+        "right": 0.43,
+        "bottom": 0.2,
+        "color_function": "AVERAGE_COLOR",
+        "name": "MIDDLE",
+        "order": "4"
+      },
+      "cee72b38-85a9-45c1-894c-720e205ee20f": {
+        "id": "cee72b38-85a9-45c1-894c-720e205ee20f",
+        "top": 0.5,
+        "left": 0.57,
+        "right": 0.28,
+        "bottom": 0.2,
+        "color_function": "AVERAGE_COLOR",
+        "name": "MID-RIGHT",
+        "order": "5"
+      },
+      "fd6d590d-2ca8-4321-a712-c1aeafeb356f": {
+        "id": "fd6d590d-2ca8-4321-a712-c1aeafeb356f",
+        "top": 0.5,
+        "left": 0.71,
+        "right": 0.14,
+        "bottom": 0.2,
+        "color_function": "AVERAGE_COLOR",
+        "name": "RIGHT",
+        "order": "6"
+      },
+      "c849caba-d41e-4778-b8c0-517aff91e76b": {
+        "id": "c849caba-d41e-4778-b8c0-517aff91e76b",
+        "top": 0.5,
+        "left": 0.85,
+        "right": 0,
+        "bottom": 0.2,
+        "color_function": "AVERAGE_COLOR",
+        "name": "RIGHTMOST",
+        "order": "7"
+      }
+    },
+    "lighting_slots": {
+      "info_map": {
+        "PERKEY_COSMETIC": {
+          "perKeyMap": {
+            "colorCodeMap": {
+              "1": {
+                "tag": "cdac2749-6273-4e67-87f8-971539dd3b5b"
+              },
+              "2": {
+                "tag": "275a2c1a-acB5-499c-a8b2-b3fef93f17c6"
+              },
+              "3": {
+                "tag": "8bf1debb-e803-40f8-b431-1e21b721ae0e"
+              },
+              "4": {
+                "tag": "0f706636-f983-4f6a-8a3d-db3e13111089"
+              },
+              "5": {
+                "tag": "cee72b38-85a9-45c1-894c-720e205ee20f"
+              },
+              "6": {
+                "tag": "fd6d590d-2ca8-4321-a712-c1aeafeb356f"
+              },
+              "7": {
+                "tag": "c849caba-d41e-4778-b8c0-517aff91e76b"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

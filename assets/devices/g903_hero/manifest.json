@@ -1,0 +1,39 @@
+{
+  "devices": [
+    {
+      "modelId": "g903_hero",
+      "resources": [
+        {
+          "key": "device_image",
+          "src": "front.png"
+        },
+        {
+          "key": "image_metadata",
+          "src": "metadata.json"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "key": "manifest",
+      "src": "manifest.json"
+    },
+    {
+      "key": "battery",
+      "src": "battery.xml"
+    },
+    {
+      "key": "cover_image_left",
+      "src": "left_cover.png"
+    },
+    {
+      "key": "cover_image_right",
+      "src": "right_cover.png"
+    },
+    {
+      "key": "default_configurations",
+      "src": "default_configurations.json"
+    }
+  ]
+}

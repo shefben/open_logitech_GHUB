@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ghub-rs Windows Installer package. Built by build-installer.ps1; see that script for how.
+
+    Per-machine, into Program Files. Unlike packaging\install.ps1 (per-user, no elevation), an MSI
+    is what "a release" means to most people and to every deployment tool, and Program Files is
+    where they expect it. Nothing *runs* elevated because of this: the agent is still started
+    from the signed-in user's own Run key, as the user, exactly as the in-app Options toggle does.
+
+    Preprocessor variables, passed by build-installer.ps1:
+        Version   - from Cargo.toml's [workspace.package] version
+        DistDir   - the staged release directory (dist\)
+-->
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:util="http://wixtoolset.org/schemas/v4/wxs/util">
+
+  <Package Name="G HUB (ghub-rs)"
+           Manufacturer="ghub-rs"
+           Version="$(var.Version)"
+           UpgradeCode="911D2B1C-FADC-444D-94FF-C0AC27C02488"
+           Scope="perMachine"
+           Compressed="yes">
+
+    <!-- Never change UpgradeCode: it is what lets a newer MSI find and replace an older one. -->
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed."
+                  AllowSameVersionUpgrades="yes" />
+    <MediaTemplate EmbedCab="yes" CompressionLevel="high" />
+
+    <Icon Id="ghub.ico" SourceFile="ghub.ico" />
+    <Property Id="ARPPRODUCTICON" Value="ghub.ico" />
+    <Property Id="ARPNOMODIFY" Value="1" />
+
+    <!--
+        Options, settable from the Options page or the command line:
+            msiexec /i ghub-rs.msi AUTOSTART=0 DESKTOPSHORTCUT=1
+        Secure so the values chosen in the (unelevated) UI reach the elevated install.
+    -->
+    <Property Id="AUTOSTART" Value="1" Secure="yes" />
+    <Property Id="DESKTOPSHORTCUT" Secure="yes" />
+
+    <!--
+        Close running copies before files are replaced or removed. WM_CLOSE to the agent's hidden
+        tray window runs its normal Quit: it closes the window politely and hands the devices back
+        to firmware. Graceful only - no TerminateProcess, so a stuck process falls through to the
+        standard files-in-use prompt instead of being killed with the keyboard left dark.
+    -->
+    <util:CloseApplication Id="CloseAgent" Target="ghub-agent.exe" CloseMessage="yes" RebootPrompt="no" />
+    <util:CloseApplication Id="CloseWindow" Target="ghub.exe" CloseMessage="yes" RebootPrompt="no" />
+
+    <StandardDirectory Id="ProgramFiles64Folder">
+      <Directory Id="INSTALLFOLDER" Name="ghub-rs">
+        <Directory Id="AssetsFolder" Name="assets" />
+      </Directory>
+    </StandardDirectory>
+    <StandardDirectory Id="ProgramMenuFolder" />
+    <StandardDirectory Id="DesktopFolder" />
+
+    <Feature Id="Main" Title="G HUB (ghub-rs)" AllowAbsent="no">
+      <ComponentGroupRef Id="Binaries" />
+      <ComponentGroupRef Id="Assets" />
+      <ComponentRef Id="AutoStart" />
+      <ComponentRef Id="DesktopShortcut" />
+    </Feature>
+
+    <!-- Both halves are required: each finds the other beside itself. -->
+    <ComponentGroup Id="Binaries" Directory="INSTALLFOLDER">
+      <Component Id="Window" Bitness="always64">
+        <File Id="GhubExe" Source="$(var.DistDir)\ghub.exe" KeyPath="yes">
+          <Shortcut Id="StartMenuShortcut"
+                    Directory="ProgramMenuFolder"
+                    Name="G HUB (ghub-rs)"
+                    Description="Peripheral manager for Logitech G devices"
+                    WorkingDirectory="INSTALLFOLDER"
+                    Icon="ghub.ico"
+                    Advertise="yes" />
+        </File>
+      </Component>
+      <Component Id="Agent" Bitness="always64">
+        <File Id="AgentExe" Source="$(var.DistDir)\ghub-agent.exe" KeyPath="yes" />
+      </Component>
+      <Component Id="Readme" Bitness="always64">
+        <File Id="ReadmeTxt" Source="$(var.DistDir)\README.txt" KeyPath="yes" />
+      </Component>
+    </ComponentGroup>
+
+    <!-- Loaded from beside the executables at run time; without them nothing draws. -->
+    <ComponentGroup Id="Assets" Directory="AssetsFolder">
+      <Files Include="$(var.DistDir)\assets\**" />
+    </ComponentGroup>
+
+    <!--
+        The same value, under the same name, that the application's own "Start with Windows"
+        toggle writes (ghub-platform/src/autostart.rs: HKCU Run, "ghub-rs", the quoted agent path),
+        so the toggle shows the truth and can turn it off. HKCU of the user running the installer.
+    -->
+    <Component Id="AutoStart" Directory="INSTALLFOLDER" Condition="AUTOSTART = 1" Bitness="always64">
+      <RegistryValue Root="HKCU"
+                     Key="Software\Microsoft\Windows\CurrentVersion\Run"
+                     Name="ghub-rs"
+                     Type="string"
+                     Value="&quot;[#AgentExe]&quot;"
+                     KeyPath="yes" />
+    </Component>
+
+    <Component Id="DesktopShortcut" Directory="INSTALLFOLDER" Condition="DESKTOPSHORTCUT = 1" Bitness="always64">
+      <Shortcut Id="DesktopShortcutLink"
+                Directory="DesktopFolder"
+                Name="G HUB (ghub-rs)"
+                Description="Peripheral manager for Logitech G devices"
+                Target="[#GhubExe]"
+                WorkingDirectory="INSTALLFOLDER"
+                Icon="ghub.ico" />
+      <RegistryValue Root="HKCU" Key="Software\ghub-rs\Installer" Name="DesktopShortcut"
+                     Type="integer" Value="1" KeyPath="yes" />
+    </Component>
+
+    <!-- Finish page: "Open G HUB now". Runs in the unelevated UI process, so it starts as the user. -->
+    <Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOXTEXT" Value="Open G HUB now" />
+    <Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOX" Value="1" />
+    <Property Id="WixShellExecTarget" Value="[#GhubExe]" />
+    <CustomAction Id="LaunchApplication"
+                  BinaryRef="Wix4UtilCA_$(sys.BUILDARCHSHORT)"
+                  DllEntry="WixShellExec"
+                  Impersonate="yes" />
+
+    <WixVariable Id="WixUILicenseRtf" Value="License.rtf" />
+    <UIRef Id="GhubUI" />
+  </Package>
+
+  <!--
+      WixUI_InstallDir with one page added: Welcome, License, Folder, Options, Ready.
+  -->
+  <Fragment>
+    <UI Id="GhubUI">
+      <TextStyle Id="WixUI_Font_Normal" FaceName="Tahoma" Size="8" />
+      <TextStyle Id="WixUI_Font_Bigger" FaceName="Tahoma" Size="12" />
+      <TextStyle Id="WixUI_Font_Title" FaceName="Tahoma" Size="9" Bold="yes" />
+      <Property Id="DefaultUIFont" Value="WixUI_Font_Normal" />
+      <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+
+      <DialogRef Id="BrowseDlg" />
+      <DialogRef Id="DiskCostDlg" />
+      <DialogRef Id="ErrorDlg" />
+      <DialogRef Id="FatalError" />
+      <DialogRef Id="FilesInUse" />
+      <DialogRef Id="MsiRMFilesInUse" />
+      <DialogRef Id="PrepareDlg" />
+      <DialogRef Id="ProgressDlg" />
+      <DialogRef Id="ResumeDlg" />
+      <DialogRef Id="UserExit" />
+
+      <Publish Dialog="BrowseDlg" Control="OK" Event="DoAction" Value="WixUIValidatePath_$(sys.BUILDARCHSHORT)" Order="3" />
+      <Publish Dialog="BrowseDlg" Control="OK" Event="SpawnDialog" Value="InvalidDirDlg" Order="4" Condition="NOT WIXUI_DONTVALIDATEPATH AND WIXUI_INSTALLDIR_VALID&lt;&gt;&quot;1&quot;" />
+
+      <Publish Dialog="ExitDialog" Control="Finish" Event="DoAction" Value="LaunchApplication" Order="1" Condition="WIXUI_EXITDIALOGOPTIONALCHECKBOX = 1 AND NOT Installed" />
+      <Publish Dialog="ExitDialog" Control="Finish" Event="EndDialog" Value="Return" Order="999" />
+
+      <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="LicenseAgreementDlg" Condition="NOT Installed" />
+      <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="VerifyReadyDlg" Condition="Installed AND PATCH" />
+
+      <Publish Dialog="LicenseAgreementDlg" Control="Back" Event="NewDialog" Value="WelcomeDlg" />
+      <Publish Dialog="LicenseAgreementDlg" Control="Next" Event="NewDialog" Value="InstallDirDlg" Condition="LicenseAccepted = &quot;1&quot;" />
+
+      <Publish Dialog="InstallDirDlg" Control="Back" Event="NewDialog" Value="LicenseAgreementDlg" />
+      <Publish Dialog="InstallDirDlg" Control="Next" Event="SetTargetPath" Value="[WIXUI_INSTALLDIR]" Order="1" />
+      <Publish Dialog="InstallDirDlg" Control="Next" Event="DoAction" Value="WixUIValidatePath_$(sys.BUILDARCHSHORT)" Order="2" Condition="NOT WIXUI_DONTVALIDATEPATH" />
+      <Publish Dialog="InstallDirDlg" Control="Next" Event="SpawnDialog" Value="InvalidDirDlg" Order="3" Condition="NOT WIXUI_DONTVALIDATEPATH AND WIXUI_INSTALLDIR_VALID&lt;&gt;&quot;1&quot;" />
+      <Publish Dialog="InstallDirDlg" Control="Next" Event="NewDialog" Value="OptionsDlg" Order="4" Condition="WIXUI_DONTVALIDATEPATH OR WIXUI_INSTALLDIR_VALID=&quot;1&quot;" />
+      <Publish Dialog="InstallDirDlg" Control="ChangeFolder" Property="_BrowseProperty" Value="[WIXUI_INSTALLDIR]" Order="1" />
+      <Publish Dialog="InstallDirDlg" Control="ChangeFolder" Event="SpawnDialog" Value="BrowseDlg" Order="2" />
+
+      <Publish Dialog="OptionsDlg" Control="Back" Event="NewDialog" Value="InstallDirDlg" />
+      <Publish Dialog="OptionsDlg" Control="Next" Event="NewDialog" Value="VerifyReadyDlg" />
+
+      <Publish Dialog="VerifyReadyDlg" Control="Back" Event="NewDialog" Value="OptionsDlg" Order="1" Condition="NOT Installed" />
+      <Publish Dialog="VerifyReadyDlg" Control="Back" Event="NewDialog" Value="MaintenanceTypeDlg" Order="2" Condition="Installed AND NOT PATCH" />
+      <Publish Dialog="VerifyReadyDlg" Control="Back" Event="NewDialog" Value="WelcomeDlg" Order="2" Condition="Installed AND PATCH" />
+
+      <Publish Dialog="MaintenanceWelcomeDlg" Control="Next" Event="NewDialog" Value="MaintenanceTypeDlg" />
+      <Publish Dialog="MaintenanceTypeDlg" Control="RepairButton" Event="NewDialog" Value="VerifyReadyDlg" />
+      <Publish Dialog="MaintenanceTypeDlg" Control="RemoveButton" Event="NewDialog" Value="VerifyReadyDlg" />
+      <Publish Dialog="MaintenanceTypeDlg" Control="Back" Event="NewDialog" Value="MaintenanceWelcomeDlg" />
+
+      <Dialog Id="OptionsDlg" Width="370" Height="270" Title="[ProductName] Setup">
+        <Control Id="BannerBitmap" Type="Bitmap" X="0" Y="0" Width="370" Height="44" TabSkip="no" Text="!(loc.InstallDirDlgBannerBitmap)" />
+        <Control Id="BannerLine" Type="Line" X="0" Y="44" Width="370" Height="0" />
+        <Control Id="Title" Type="Text" X="15" Y="6" Width="200" Height="15" Transparent="yes" NoPrefix="yes" Text="{\WixUI_Font_Title}Options" />
+        <Control Id="Description" Type="Text" X="25" Y="23" Width="280" Height="15" Transparent="yes" NoPrefix="yes" Text="Choose how [ProductName] starts." />
+
+        <Control Id="AutoStartBox" Type="CheckBox" X="20" Y="60" Width="330" Height="17" Property="AUTOSTART" CheckBoxValue="1"
+                 Text="Start the background agent when I sign in (recommended)" />
+        <Control Id="AutoStartNote" Type="Text" X="36" Y="78" Width="314" Height="40" NoPrefix="yes"
+                 Text="The agent keeps lighting, profiles, key bindings and macros working without the window open. It uses a few MB of memory and can be turned off later in the application's Options page." />
+
+        <Control Id="DesktopBox" Type="CheckBox" X="20" Y="128" Width="330" Height="17" Property="DESKTOPSHORTCUT" CheckBoxValue="1"
+                 Text="Create a desktop shortcut" />
+
+        <Control Id="BottomLine" Type="Line" X="0" Y="234" Width="370" Height="0" />
+        <Control Id="Back" Type="PushButton" X="180" Y="243" Width="56" Height="17" Text="!(loc.WixUIBack)" />
+        <Control Id="Next" Type="PushButton" X="236" Y="243" Width="56" Height="17" Default="yes" Text="!(loc.WixUINext)" />
+        <Control Id="Cancel" Type="PushButton" X="304" Y="243" Width="56" Height="17" Cancel="yes" Text="!(loc.WixUICancel)">
+          <Publish Event="SpawnDialog" Value="CancelDlg" />
+        </Control>
+      </Dialog>
+    </UI>
+
+    <UIRef Id="WixUI_Common" />
+  </Fragment>
+</Wix>

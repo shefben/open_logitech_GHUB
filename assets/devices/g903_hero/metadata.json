@@ -1,0 +1,203 @@
+{
+  "images": [
+    {
+      "key": "device_image",
+      "origin": {
+        "width": 1440,
+        "height": 2858
+      },
+      "assignments": [
+        {
+          "slotId": "g903hero_g1_m1",
+          "marker": {
+            "x": 296,
+            "y": 400
+          },
+          "label": {
+            "x": -1400,
+            "y": 150
+          }
+        },
+        {
+          "slotId": "g903hero_g2_m1",
+          "marker": {
+            "x": 1140,
+            "y": 400
+          },
+          "label": {
+            "x": 2840,
+            "y": 150
+          }
+        },
+        {
+          "slotId": "g903hero_g3_m1",
+          "marker": {
+            "x": 715,
+            "y": 600
+          },
+          "label": {
+            "x": 715,
+            "y": -300
+          }
+        },
+        {
+          "slotId": "g903hero_g4_m1",
+          "marker": {
+            "x": 72,
+            "y": 1732
+          },
+          "label": {
+            "x": -1400,
+            "y": 1732
+          }
+        },
+        {
+          "slotId": "g903hero_g5_m1",
+          "marker": {
+            "x": 40,
+            "y": 1304
+          },
+          "label": {
+            "x": -1400,
+            "y": 1304
+          }
+        },
+        {
+          "slotId": "g903hero_g6_m1",
+          "marker": {
+            "x": 1360,
+            "y": 1732
+          },
+          "label": {
+            "x": 2840,
+            "y": 1732
+          }
+        },
+        {
+          "slotId": "g903hero_g7_m1",
+          "marker": {
+            "x": 1392,
+            "y": 1304
+          },
+          "label": {
+            "x": 2840,
+            "y": 1304
+          }
+        },
+        {
+          "slotId": "g903hero_g8_m1",
+          "marker": {
+            "x": 640,
+            "y": 1196
+          },
+          "label": {
+            "x": -1400,
+            "y": 996
+          }
+        },
+        {
+          "slotId": "g903hero_g9_m1",
+          "marker": {
+            "x": 820,
+            "y": 1196
+          },
+          "label": {
+            "x": 2840,
+            "y": 996
+          }
+        },
+        {
+          "slotId": "g903hero_g10_m1",
+          "marker": {
+            "x": 570,
+            "y": 548
+          },
+          "label": {
+            "x": -1400,
+            "y": 548
+          }
+        },
+        {
+          "slotId": "g903hero_g11_m1",
+          "marker": {
+            "x": 860,
+            "y": 548
+          },
+          "label": {
+            "x": 2840,
+            "y": 548
+          }
+        }
+      ],
+      "zones": [
+        {
+          "id": "ZONE_BRANDING",
+          "components": [
+            {
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 504.5,
+                    "y": 2015.5,
+                    "width": 433,
+                    "height": 362
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ZONE_PRIMARY",
+          "components": [
+            {
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 598.5,
+                    "y": 1322.5,
+                    "width": 248,
+                    "height": 248
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "maskableZones": [
+        {
+          "id": "left_side",
+          "cover_image": {
+            "key": "cover_image_left",
+            "position": {
+              "x": -1,
+              "y": 813,
+              "width": 210,
+              "height": 1199
+            }
+          }
+        },
+        {
+          "id": "right_side",
+          "cover_image": {
+            "key": "cover_image_right",
+            "position": {
+              "x": 1222,
+              "y": 872,
+              "width": 196,
+              "height": 1140
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "dimensions": {
+    "width": 67000,
+    "height": 130000,
+    "depth": 40000
+  }
+}

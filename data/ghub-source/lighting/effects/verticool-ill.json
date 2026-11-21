@@ -1,0 +1,344 @@
+{
+  "keyframeInfo": {
+    "direction": "BOUNCE",
+    "keyframeMap": {
+      "0": {
+        "curveType": "LINEAR",
+        "length": 8,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "2": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "3": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "4": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "5": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "6": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "7": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "1": {
+        "curveType": "LINEAR",
+        "length": 8,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "2": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "3": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "4": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "5": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "6": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "7": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "2": {
+        "curveType": "LINEAR",
+        "length": 8,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "2": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "3": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "4": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "5": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "6": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "7": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "3": {
+        "curveType": "LINEAR",
+        "length": 8,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "2": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "3": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "4": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "5": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "6": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "7": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "4": {
+        "curveType": "LINEAR",
+        "length": 8,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "2": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "3": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "4": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "5": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "6": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "7": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "5": {
+        "curveType": "LINEAR",
+        "length": 8,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "2": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "3": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "4": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "5": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "6": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "7": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "6": {
+        "curveType": "LINEAR",
+        "length": 8,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "hex": "#00ff00",
+                    "tag": "background"
+                  },
+                  "2": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "3": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "4": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "5": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "6": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "7": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "7": {
+        "curveType": "LINEAR",
+        "length": 8,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "2": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "3": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "4": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "5": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "6": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  },
+                  "7": {
+                    "hex": "#8000ff",
+                    "tag": "fill"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "speed": 100
+  }
+}

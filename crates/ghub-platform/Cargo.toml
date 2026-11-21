@@ -1,0 +1,14 @@
+[package]
+name = "ghub-platform"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+ghub-core.workspace = true
+log.workspace = true
+serde_json.workspace = true
+
+# No `windows` crate: the two dozen entry points this needs are declared directly in `sys.rs`.
+# That is what the C# did with DllImport, it keeps the whole OS surface in one auditable file,
+# and it avoids a dependency whose API shape moves between minor versions.

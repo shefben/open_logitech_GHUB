@@ -1,0 +1,21 @@
+[package]
+name = "ghub-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+ghub-hidpp.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+rusqlite = { workspace = true, optional = true }
+thiserror.workspace = true
+log.workspace = true
+regex-lite.workspace = true
+
+[features]
+default = ["import"]
+# The G HUB importer, and with it bundled SQLite. A feature rather than always-on because the
+# importer is a page in the window: the resident agent reads no G HUB database and has no reason
+# to carry 1.5 MB of SQLite for the life of the session.
+import = ["dep:rusqlite"]

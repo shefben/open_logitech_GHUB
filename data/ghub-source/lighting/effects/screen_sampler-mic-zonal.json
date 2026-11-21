@@ -1,0 +1,84 @@
+{
+  "screen_sampler_info": {
+    "region_map": {
+      "550ece0b-761e-40c1-a738-2e55634371fb": {
+        "id": "550ece0b-761e-40c1-a738-2e55634371fb",
+        "top": 0.3,
+        "left": 0.3,
+        "right": 0.3,
+        "bottom": 0.3,
+        "color_function": "AVERAGE_COLOR",
+        "name": "CENTER"
+      }
+    },
+    "lighting_slots": {
+      "info_map": {
+        "ZONE_ONE": {
+          "zone_color": {
+            "tag": "550ece0b-761e-40c1-a738-2e55634371fb"
+          }
+        },
+        "ZONE_TWO": {
+          "zone_color": {
+            "tag": "550ece0b-761e-40c1-a738-2e55634371fb"
+          }
+        },
+        "ZONE_THREE": {
+          "zone_color": {
+            "tag": "550ece0b-761e-40c1-a738-2e55634371fb"
+          }
+        },
+        "ZONE_FOUR": {
+          "zone_color": {
+            "tag": "550ece0b-761e-40c1-a738-2e55634371fb"
+          }
+        },
+        "ZONE_FIVE": {
+          "zone_color": {
+            "tag": "550ece0b-761e-40c1-a738-2e55634371fb"
+          }
+        },
+        "ZONE_BRANDING": {
+          "zone_color": {
+            "tag": "550ece0b-761e-40c1-a738-2e55634371fb"
+          }
+        },
+        "ZONE_PRIMARY": {
+          "zone_color": {
+            "tag": "550ece0b-761e-40c1-a738-2e55634371fb"
+          }
+        },
+        "ZONE_TOP": {
+          "zone_color": {
+            "tag": "550ece0b-761e-40c1-a738-2e55634371fb"
+          }
+        },
+        "ZONE_BOTTOM": {
+          "zone_color": {
+            "tag": "550ece0b-761e-40c1-a738-2e55634371fb"
+          }
+        },
+        "ZONE_IDLE_STATE": {
+          "zone_color": {
+            "tag": "550ece0b-761e-40c1-a738-2e55634371fb"
+          }
+        },
+        "ZONE_IN_USE_STATE": {
+          "zone_color": {
+            "tag": "550ece0b-761e-40c1-a738-2e55634371fb"
+          }
+        },
+        "ZONE_MUTED_STATE": {
+          "zone_color": {
+            "tag": "550ece0b-761e-40c1-a738-2e55634371fb"
+          }
+        },
+        "ZONE_SOFT_MUTED_STATE": {
+          "zone_color": {
+            "tag": "550ece0b-761e-40c1-a738-2e55634371fb"
+          }
+        }
+      }
+    }
+  }
+}

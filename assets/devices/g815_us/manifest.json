@@ -1,0 +1,66 @@
+{
+  "devices": [
+    {
+      "modelId": "g813",
+      "resources": [
+        {
+          "key": "device_image",
+          "src": "front.png"
+        },
+        {
+          "key": "image_metadata",
+          "src": "metadata.json"
+        }
+      ]
+    },
+    {
+      "modelId": "g815",
+      "resources": [
+        {
+          "key": "device_image",
+          "src": "front.png"
+        },
+        {
+          "key": "image_metadata",
+          "src": "metadata.json"
+        }
+      ]
+    },
+    {
+      "modelId": "g815_ext6",
+      "resources": [
+        {
+          "key": "device_image",
+          "src": "177c8788-e297-49c7-8472-9c3428f1a310"
+        },
+        {
+          "key": "image_metadata",
+          "src": "metadata.json"
+        }
+      ]
+    },
+    {
+      "modelId": "g813_ext7",
+      "resources": [
+        {
+          "key": "device_image",
+          "src": "177c8788-e297-49c7-8472-9c3428f1a310"
+        },
+        {
+          "key": "image_metadata",
+          "src": "metadata.json"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "key": "manifest",
+      "src": "manifest.json"
+    },
+    {
+      "key": "default_configurations",
+      "src": "default_configurations.json"
+    }
+  ]
+}

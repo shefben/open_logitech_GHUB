@@ -1,0 +1,91 @@
+{
+  "screen_sampler_info": {
+    "region_map": {
+      "dbd76f7a-1a89-4301-a069-0002e620603a": {
+        "id": "dbd76f7a-1a89-4301-a069-0002e620603a",
+        "top": 0,
+        "left": 0,
+        "right": 0.9,
+        "bottom": 0.9,
+        "color_function": "AVERAGE_COLOR",
+        "name": "LOGO"
+      },
+      "3b1236fb-fab1-427d-aac8-ea92712b86ed": {
+        "id": "3b1236fb-fab1-427d-aac8-ea92712b86ed",
+        "top": 0,
+        "left": 0.9,
+        "right": 0,
+        "bottom": 0.9,
+        "color_function": "AVERAGE_COLOR",
+        "name": "CENTER"
+      },
+      "a04d2034-3cd7-4ffb-8ac4-b7a7b7ba890c": {
+        "id": "a04d2034-3cd7-4ffb-8ac4-b7a7b7ba890c",
+        "top": 0.9,
+        "left": 0,
+        "right": 0.9,
+        "bottom": 0,
+        "color_function": "AVERAGE_COLOR",
+        "name": "LEFT"
+      },
+      "3c04f419-165e-4910-b31e-4631505e77ef": {
+        "id": "3c04f419-165e-4910-b31e-4631505e77ef",
+        "top": 0.9,
+        "left": 0.9,
+        "right": 0,
+        "bottom": 0,
+        "color_function": "AVERAGE_COLOR",
+        "name": "RIGHT"
+      }
+    },
+    "lighting_slots": {
+      "info_map": {
+        "PERKEY_COSMETIC": {
+          "perKeyMap": {
+            "colorCodeMap": {
+              "210": {
+                "tag": "dbd76f7a-1a89-4301-a069-0002e620603a"
+              },
+              "6": {
+                "tag": "3b1236fb-fab1-427d-aac8-ea92712b86ed"
+              },
+              "7": {
+                "tag": "3b1236fb-fab1-427d-aac8-ea92712b86ed"
+              },
+              "12": {
+                "tag": "3b1236fb-fab1-427d-aac8-ea92712b86ed"
+              },
+              "1": {
+                "tag": "3b1236fb-fab1-427d-aac8-ea92712b86ed"
+              },
+              "8": {
+                "tag": "a04d2034-3cd7-4ffb-8ac4-b7a7b7ba890c"
+              },
+              "9": {
+                "tag": "a04d2034-3cd7-4ffb-8ac4-b7a7b7ba890c"
+              },
+              "10": {
+                "tag": "a04d2034-3cd7-4ffb-8ac4-b7a7b7ba890c"
+              },
+              "11": {
+                "tag": "a04d2034-3cd7-4ffb-8ac4-b7a7b7ba890c"
+              },
+              "2": {
+                "tag": "3c04f419-165e-4910-b31e-4631505e77ef"
+              },
+              "3": {
+                "tag": "3c04f419-165e-4910-b31e-4631505e77ef"
+              },
+              "4": {
+                "tag": "3c04f419-165e-4910-b31e-4631505e77ef"
+              },
+              "5": {
+                "tag": "3c04f419-165e-4910-b31e-4631505e77ef"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

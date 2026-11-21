@@ -1,0 +1,1730 @@
+{
+  "images": [
+    {
+      "key": "device_image",
+      "origin": {
+        "width": 3600,
+        "height": 1374
+      },
+      "assignmentOffset": {
+        "x": 1550,
+        "y": 0
+      },
+      "assignments": [
+        {
+          "slotId": "g815_g1_m1",
+          "marker": {
+            "x": 145,
+            "y": 708
+          },
+          "label": {
+            "x": -1000,
+            "y": 283
+          }
+        },
+        {
+          "slotId": "g815_g2_m1",
+          "marker": {
+            "x": 145,
+            "y": 853
+          },
+          "label": {
+            "x": -1000,
+            "y": 533
+          }
+        },
+        {
+          "slotId": "g815_g3_m1",
+          "marker": {
+            "x": 145,
+            "y": 996
+          },
+          "label": {
+            "x": -1000,
+            "y": 783
+          }
+        },
+        {
+          "slotId": "g815_g4_m1",
+          "marker": {
+            "x": 145,
+            "y": 1140
+          },
+          "label": {
+            "x": -1000,
+            "y": 1033
+          }
+        },
+        {
+          "slotId": "g815_g5_m1",
+          "marker": {
+            "x": 145,
+            "y": 1283
+          },
+          "label": {
+            "x": -1000,
+            "y": 1283
+          }
+        }
+      ],
+      "hotAreas": [
+        {
+          "id": "gameMode",
+          "renderings": [
+            {
+              "type": "circle",
+              "circle": {
+                "cx": 1250,
+                "cy": 349,
+                "r": 55
+              }
+            }
+          ]
+        }
+      ],
+      "zones": [
+        {
+          "id": "PERKEY_KEYBOARD",
+          "disableable": true,
+          "components": [
+            {
+              "id": 41,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 262,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 58,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 502,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 59,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 646,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 60,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 790,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 61,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 935,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 62,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1175,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 63,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1320,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 64,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1464,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 65,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1608,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 66,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1849,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 67,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1994,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 68,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2139,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 69,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2282,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 70,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2478,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 71,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2622,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 72,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2765,
+                    "y": 459,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 46,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1994,
+                    "y": 641,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 53,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 260,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 30,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 405,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 31,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 549,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 32,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 694,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 33,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 838,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 34,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 982,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 35,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1127,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 36,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1271,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 37,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1416,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 38,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1560,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 39,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1705,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 45,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1849,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 42,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2139,
+                    "y": 642,
+                    "width": 271,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 73,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2478,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 74,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2622,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 75,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2765,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 83,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2961,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 84,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 3105,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 85,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 3250,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 86,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 3395,
+                    "y": 643,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 77,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2620,
+                    "y": 784,
+                    "width": 130,
+                    "height": 130
+                  }
+                }
+              ]
+            },
+            {
+              "id": 20,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 477,
+                    "y": 785,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 26,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 621,
+                    "y": 785,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 766,
+                    "y": 785,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 21,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 911,
+                    "y": 785,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 23,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1055,
+                    "y": 785,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 28,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1200,
+                    "y": 785,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 24,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1344,
+                    "y": 785,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1488,
+                    "y": 785,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 18,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1632,
+                    "y": 785,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 19,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1777,
+                    "y": 785,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 47,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1921,
+                    "y": 785,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 48,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2066,
+                    "y": 785,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 43,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 260,
+                    "y": 786,
+                    "width": 200,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 49,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2210,
+                    "y": 786,
+                    "width": 200,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 76,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2478,
+                    "y": 786,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 78,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2765,
+                    "y": 786,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 95,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2961,
+                    "y": 786,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 96,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 3105,
+                    "y": 786,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 97,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 3250,
+                    "y": 786,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 87,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 3394,
+                    "y": 786,
+                    "width": 128,
+                    "height": 272
+                  }
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 513,
+                    "y": 929,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 22,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 657,
+                    "y": 929,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 802,
+                    "y": 929,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 9,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 946,
+                    "y": 929,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 10,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1091,
+                    "y": 929,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 11,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1235,
+                    "y": 929,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 13,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1379,
+                    "y": 929,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 14,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1524,
+                    "y": 929,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 15,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1668,
+                    "y": 929,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 51,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1813,
+                    "y": 929,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 52,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1957,
+                    "y": 929,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 57,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 260,
+                    "y": 930,
+                    "width": 234,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 40,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2102,
+                    "y": 930,
+                    "width": 308,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 92,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2961,
+                    "y": 930,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 93,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 3105,
+                    "y": 930,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 94,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 3250,
+                    "y": 930,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 585,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 27,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 730,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 874,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 25,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1018,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1163,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 17,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1308,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 16,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1452,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 54,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1596,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 55,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1741,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 56,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1886,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 82,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2622,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 89,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2961,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 90,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 3105,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 91,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 3250,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 88,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 3397,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 272
+                  }
+                }
+              ]
+            },
+            {
+              "id": 225,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 260,
+                    "y": 1075,
+                    "width": 308,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 229,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2030,
+                    "y": 1075,
+                    "width": 380,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 224,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 260,
+                    "y": 1218,
+                    "width": 200,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 227,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 478,
+                    "y": 1218,
+                    "width": 164,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 226,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 657,
+                    "y": 1218,
+                    "width": 164,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 44,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 838,
+                    "y": 1218,
+                    "width": 814,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 230,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1668,
+                    "y": 1218,
+                    "width": 164,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 231,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1849,
+                    "y": 1218,
+                    "width": 164,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 101,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2030,
+                    "y": 1218,
+                    "width": 164,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 228,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2210,
+                    "y": 1218,
+                    "width": 200,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 80,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2478,
+                    "y": 1218,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 81,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2622,
+                    "y": 1218,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 79,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2765,
+                    "y": 1218,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 98,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2961,
+                    "y": 1218,
+                    "width": 272,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 99,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 3250,
+                    "y": 1218,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "PERKEY_INDICATOR",
+          "components": [
+            {
+              "id": 1,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 1339,
+                    "y": 299,
+                    "width": 98,
+                    "height": 98
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "PERKEY_CONSUMER",
+          "components": [
+            {
+              "id": 181,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 3261,
+                    "y": 474,
+                    "width": 98,
+                    "height": 98
+                  }
+                }
+              ]
+            },
+            {
+              "id": 182,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 2988,
+                    "y": 474,
+                    "width": 98,
+                    "height": 98
+                  }
+                }
+              ]
+            },
+            {
+              "id": 205,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 3125,
+                    "y": 474,
+                    "width": 98,
+                    "height": 98
+                  }
+                }
+              ]
+            },
+            {
+              "id": 226,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 3398,
+                    "y": 474,
+                    "width": 98,
+                    "height": 98
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "PERKEY_BRANDING",
+          "components": [
+            {
+              "id": 1,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 79,
+                    "y": 290,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "PERKEY_GKEY",
+          "components": [
+            {
+              "id": 1,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 79,
+                    "y": 642,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 79,
+                    "y": 787,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 79,
+                    "y": 930,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 79,
+                    "y": 1074,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "renderings": [
+                {
+                  "type": "rect",
+                  "rect": {
+                    "x": 79,
+                    "y": 1219,
+                    "width": 128,
+                    "height": 128
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dimensions": {
+    "width": 475000,
+    "height": 150000,
+    "depth": 22000
+  }
+}

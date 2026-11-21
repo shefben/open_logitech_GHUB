@@ -1,0 +1,15 @@
+[package]
+name = "ghub-host"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+# `default-features = false` drops the G HUB importer, and with it bundled SQLite. The importer is
+# a page in the window, not something the background agent does, and 1.5 MB of SQLite in a process
+# that is meant to sit resident all day is 1.5 MB for nothing. The window's own crate turns the
+# feature back on, and Cargo unifies features per build, so the GUI build still has it.
+ghub-core.workspace = true
+ghub-hidpp.workspace = true
+ghub-platform.workspace = true
+log.workspace = true

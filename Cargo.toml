@@ -1,0 +1,53 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/ghub-hidpp",
+    "crates/ghub-core",
+    "crates/ghub-platform",
+    "crates/ghub-host",
+    "crates/ghub-agent",
+    "crates/ghub-ui",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.82"
+license = "PolyForm-Noncommercial-1.0.0"
+
+[workspace.dependencies]
+ghub-hidpp = { path = "crates/ghub-hidpp" }
+# `default-features = false` here, opted back in by ghub-ui with `features = ["import"]`. Cargo
+# ignores a member's `default-features = false` unless the workspace entry states it too, so
+# without this line the agent would link bundled SQLite however it asked not to.
+ghub-core = { path = "crates/ghub-core", default-features = false }
+ghub-platform = { path = "crates/ghub-platform" }
+ghub-host = { path = "crates/ghub-host" }
+
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+log = "0.4"
+env_logger = { version = "0.11", default-features = false, features = ["humantime"] }
+
+# GUI: glow backend only. default_fonts off - we ship Logitech's own faces.
+egui = { version = "0.37", default-features = false }
+eframe = { version = "0.37", default-features = false, features = ["glow", "wayland", "x11"] }
+image = { version = "0.25", default-features = false, features = ["png"] }
+
+# HID: windows-native backend = no C hidapi build, no vendored DLL.
+hidapi = { version = "2.6", default-features = false, features = ["windows-native"] }
+rusqlite = { version = "0.40", features = ["bundled"] }
+# regex-lite, not regex: a tenth of the binary, and its backtracker is memoised so a
+# user-written title pattern cannot hang the foreground watcher.
+regex-lite = "0.1"
+windows = "0.62"
+
+# Optimised for a responsive GUI first, size second: opt-level 3 (not "z") keeps
+# per-frame painting fast, while fat LTO + one codegen unit + strip claw the size back.
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = "symbols"

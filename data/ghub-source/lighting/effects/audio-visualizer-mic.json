@@ -1,0 +1,175 @@
+{
+  "audioVisualizerInfo": {
+    "frequencyLayout": [
+      {
+        "slots": [
+          {
+            "lightingType": "PER_KEY",
+            "perKeyType": "PERKEY_COSMETIC",
+            "slotCode": 1
+          }
+        ],
+        "range": {
+          "start": "LOW_60HZ",
+          "end": "LOW_170HZ"
+        }
+      },
+      {
+        "slots": [
+          {
+            "lightingType": "PER_KEY",
+            "perKeyType": "PERKEY_COSMETIC",
+            "slotCode": 2
+          }
+        ],
+        "range": {
+          "start": "LOW_170HZ",
+          "end": "MID_600HZ"
+        }
+      },
+      {
+        "slots": [
+          {
+            "lightingType": "PER_KEY",
+            "perKeyType": "PERKEY_COSMETIC",
+            "slotCode": 3
+          }
+        ],
+        "range": {
+          "start": "MID_600HZ",
+          "end": "MID_1000HZ"
+        }
+      },
+      {
+        "slots": [
+          {
+            "lightingType": "PER_KEY",
+            "perKeyType": "PERKEY_COSMETIC",
+            "slotCode": 4
+          }
+        ],
+        "range": {
+          "start": "MID_1000HZ",
+          "end": "MID_1500HZ"
+        }
+      },
+      {
+        "slots": [
+          {
+            "lightingType": "PER_KEY",
+            "perKeyType": "PERKEY_COSMETIC",
+            "slotCode": 5
+          }
+        ],
+        "range": {
+          "start": "MID_1500HZ",
+          "end": "MID_2000HZ"
+        }
+      },
+      {
+        "slots": [
+          {
+            "lightingType": "PER_KEY",
+            "perKeyType": "PERKEY_COSMETIC",
+            "slotCode": 6
+          }
+        ],
+        "range": {
+          "start": "MID_2000HZ",
+          "end": "MID_2500HZ"
+        }
+      },
+      {
+        "slots": [
+          {
+            "lightingType": "PER_KEY",
+            "perKeyType": "PERKEY_COSMETIC",
+            "slotCode": 7
+          }
+        ],
+        "range": {
+          "start": "MID_2500HZ",
+          "end": "MID_3000HZ"
+        }
+      },
+      {
+        "slots": [
+          {
+            "lightingType": "PER_KEY",
+            "perKeyType": "PERKEY_COSMETIC",
+            "slotCode": 210
+          }
+        ],
+        "range": {
+          "start": "MID_3000HZ",
+          "end": "MID_3500HZ"
+        }
+      },
+      {
+        "slots": [
+          {
+            "lightingType": "PER_KEY",
+            "perKeyType": "PERKEY_COSMETIC",
+            "slotCode": 8
+          }
+        ],
+        "range": {
+          "start": "MID_3500HZ",
+          "end": "HIGH_4000HZ"
+        }
+      },
+      {
+        "slots": [
+          {
+            "lightingType": "PER_KEY",
+            "perKeyType": "PERKEY_COSMETIC",
+            "slotCode": 9
+          }
+        ],
+        "range": {
+          "start": "HIGH_4000HZ",
+          "end": "HIGH_4500HZ"
+        }
+      },
+      {
+        "slots": [
+          {
+            "lightingType": "PER_KEY",
+            "perKeyType": "PERKEY_COSMETIC",
+            "slotCode": 10
+          }
+        ],
+        "range": {
+          "start": "HIGH_4500HZ",
+          "end": "HIGH_5000HZ"
+        }
+      },
+      {
+        "slots": [
+          {
+            "lightingType": "PER_KEY",
+            "perKeyType": "PERKEY_COSMETIC",
+            "slotCode": 11
+          }
+        ],
+        "range": {
+          "start": "HIGH_5000HZ",
+          "end": "HIGH_5500HZ"
+        }
+      },
+      {
+        "slots": [
+          {
+            "lightingType": "PER_KEY",
+            "perKeyType": "PERKEY_COSMETIC",
+            "slotCode": 12
+          }
+        ],
+        "range": {
+          "start": "HIGH_5500HZ",
+          "end": "HIGH_6000HZ"
+        }
+      }
+    ]
+  }
+}
